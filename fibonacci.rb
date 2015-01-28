@@ -25,7 +25,5 @@ class FibonacciTest < MiniTest::Test
 end
 
 def fibonacci(suites)
-
   suites <= 1 ? 1 : fibonacci(suites-2) + fibonacci(suites-1)
-  
 end
